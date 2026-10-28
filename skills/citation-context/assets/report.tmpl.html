@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<style>{{CSS}}</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">citation-context</div>
+  <div class="seedtitle" title="{{SEED_TITLE}}">{{SEED_TITLE}}</div>
+  <div class="stats">{{STATS}}</div>
+</header>
+<div class="layout">
+  <aside class="list" id="list"></aside>
+  <section class="graphwrap">
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="搜索标题…">
+      <button id="mode-net" class="on">网络</button>
+      <button id="mode-year">年份</button>
+      <label><input type="checkbox" data-role="seed" checked> 本文</label>
+      <label><input type="checkbox" data-role="backward" checked> 后向</label>
+      <label><input type="checkbox" data-role="forward" checked> 施引</label>
+      <label><input type="checkbox" id="spokes" checked> 本文连线</label>
+      <button id="reset">复位</button>
+    </div>
+    <svg id="graph" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet"></svg>
+    <div class="legend">
+      <div>颜色 = 相关度（越深越高）</div>
+      <div class="bar"></div>
+      <div class="row"><span>0</span><span>50</span><span>100</span></div>
+      <div class="keys">
+        <span><i></i>引用关系</span>
+        <span><i class="dash"></i>共享参考文献</span>
+      </div>
+      <div>圆点大小 = 被引次数</div>
+    </div>
+  </section>
+  <aside class="detail" id="detail"></aside>
+</div>
+<noscript>
+  <div class="noscript-fallback">
+    <p>此报告需要 JavaScript 才能交互。以下为静态摘要：</p>
+    {{FALLBACK}}
+  </div>
+</noscript>
+<script type="application/json" id="cg-data">{{DATA}}</script>
+<script>{{JS}}</script>
+</body>
+</html>

@@ -1,0 +1,484 @@
+{
+ "meta": {
+  "seed_id": "W7223388751",
+  "seed_doi": "10.1038/s43016-026-01455-5",
+  "generated_at": "2026-10-27T23:07:28+08:00",
+  "form": "recent",
+  "label_source": "rule",
+  "pack_version": 1
+ },
+ "seed": {
+  "nid": 0,
+  "title": "Coupling irrigation technology upgrades with targeted expansion enables water-efficient and climate-resilient cereal production in China",
+  "year": 2026,
+  "venue": "Nature Food",
+  "authors": [
+   "Tianyi Zhang",
+   "Jinxia Wang",
+   "Huang Chen"
+  ],
+  "cited_by_count": 0,
+  "abstract": ""
+ },
+ "stats": {
+  "backward": 43,
+  "forward_total": 0,
+  "forward_sampled": 0,
+  "sibling": 0,
+  "nodes": 44,
+  "edges": 101,
+  "by_role": {
+   "seed": 1,
+   "backward": 43
+  },
+  "by_label": {
+   "review": 1,
+   "background": 40,
+   "method": 2
+  },
+  "co_cited_max": 0,
+  "forward_zero_cited": 0,
+  "sampling": {
+   "forward_total": 0,
+   "forward_sampled": 0,
+   "complete": true
+  },
+  "backward_year_span": [
+   2006,
+   2026
+  ]
+ },
+ "groups": {
+  "foundation": [
+   7
+  ],
+  "method": [
+   21,
+   18
+  ],
+  "recent": [
+   22,
+   30,
+   43,
+   28,
+   32,
+   29,
+   38,
+   33
+  ],
+  "hubs": [],
+  "forward": [],
+  "top_overall": [
+   7,
+   22,
+   30,
+   43,
+   28,
+   32,
+   29,
+   38
+  ],
+  "clusters": [
+   {
+    "id": 0,
+    "name": "气候对作物产量的影响",
+    "size": 11,
+    "packed": 2,
+    "nids": [
+     32,
+     41
+    ]
+   },
+   {
+    "id": 1,
+    "name": "灌溉与气候反馈",
+    "size": 10,
+    "packed": 3,
+    "nids": [
+     30,
+     29,
+     21
+    ]
+   },
+   {
+    "id": 2,
+    "name": "全球灌溉扩张情景",
+    "size": 10,
+    "packed": 3,
+    "nids": [
+     43,
+     38,
+     33
+    ]
+   },
+   {
+    "id": 3,
+    "name": "中国节水技术",
+    "size": 7,
+    "packed": 2,
+    "nids": [
+     7,
+     28
+    ]
+   },
+   {
+    "id": 4,
+    "name": "制度与集体行动",
+    "size": 3,
+    "packed": 2,
+    "nids": [
+     18,
+     34
+    ]
+   },
+   {
+    "id": 5,
+    "name": "灌溉方式与水分生产力",
+    "size": 2,
+    "packed": 2,
+    "nids": [
+     22,
+     9
+    ]
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "nid": 21,
+   "title": "Did water-saving irrigation protect water resources over the past 40 years? A global analysis based on water accounting framework",
+   "year": 2021,
+   "venue": "Agricultural Water Management",
+   "authors": [
+    "Xinyao Zhou",
+    "Yongqiang Zhang"
+   ],
+   "cites": 87,
+   "score": 0.1751,
+   "label": "method",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "",
+   "contexts": [],
+   "cluster": 1,
+   "cluster_name": "灌溉与气候反馈"
+  },
+  {
+   "nid": 18,
+   "title": "The impacts of land fragmentation on irrigation collective action: Empirical test of the social-ecological system framework in China",
+   "year": 2020,
+   "venue": "Journal of Rural Studies",
+   "authors": [
+    "Yahua Wang",
+    "Liangzhen Zang"
+   ],
+   "cites": 93,
+   "score": 0.1705,
+   "label": "method",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "",
+   "contexts": [],
+   "cluster": 4,
+   "cluster_name": "制度与集体行动"
+  },
+  {
+   "nid": 32,
+   "title": "Climate change impacts on crop yields",
+   "year": 2023,
+   "venue": "Nature Reviews Earth & Environment",
+   "authors": [
+    "Ehsan Eyshi Rezaei",
+    "Heidi A. Webber"
+   ],
+   "cites": 814,
+   "score": 0.1947,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "与本文共享 3 篇参考文献",
+   "contexts": [],
+   "cluster": 0,
+   "cluster_name": "气候对作物产量的影响"
+  },
+  {
+   "nid": 41,
+   "title": "Impacts of climate change on global agriculture accounting for adaptation",
+   "year": 2025,
+   "venue": "Nature",
+   "authors": [
+    "Andrew Hultgren",
+    "Tamma A. Carleton"
+   ],
+   "cites": 365,
+   "score": 0.164,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "与本文共享 4 篇参考文献",
+   "contexts": [],
+   "cluster": 0,
+   "cluster_name": "气候对作物产量的影响"
+  },
+  {
+   "nid": 30,
+   "title": "Sustainable irrigation and climate feedbacks",
+   "year": 2023,
+   "venue": "Nature Food",
+   "authors": [
+    "Yi Yang",
+    "Zhenong Jin"
+   ],
+   "cites": 89,
+   "score": 0.2288,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "与本文共享 3 篇参考文献",
+   "contexts": [],
+   "cluster": 1,
+   "cluster_name": "灌溉与气候反馈"
+  },
+  {
+   "nid": 29,
+   "title": "Irrigation in the Earth system",
+   "year": 2023,
+   "venue": "Nature Reviews Earth & Environment",
+   "authors": [
+    "Sonali McDermid",
+    "Mallika Arudi Nocco"
+   ],
+   "cites": 368,
+   "score": 0.1902,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "与本文共享 2 篇参考文献",
+   "contexts": [],
+   "cluster": 1,
+   "cluster_name": "灌溉与气候反馈"
+  },
+  {
+   "nid": 43,
+   "title": "Sustainable global irrigation expansion could support only two-thirds of croplands under 1.5 °C and 3 °C warming",
+   "year": 2026,
+   "venue": "Nature Food",
+   "authors": [
+    "Liyin He",
+    "Lorenzo Rosa"
+   ],
+   "cites": 5,
+   "score": 0.2218,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "与本文共享 9 篇参考文献",
+   "contexts": [],
+   "cluster": 2,
+   "cluster_name": "全球灌溉扩张情景"
+  },
+  {
+   "nid": 38,
+   "title": "Water-saving irrigated area expansion hardly enhances crop yield while saving water under climate scenarios in China",
+   "year": 2025,
+   "venue": "Communications Earth & Environment",
+   "authors": [
+    "Zhiwei Yue",
+    "La Zhuo"
+   ],
+   "cites": 19,
+   "score": 0.1829,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "与本文共享 5 篇参考文献",
+   "contexts": [],
+   "cluster": 2,
+   "cluster_name": "全球灌溉扩张情景"
+  },
+  {
+   "nid": 7,
+   "title": "Water saving technology and saving water in China",
+   "year": 2006,
+   "venue": "Agricultural Water Management",
+   "authors": [
+    "Amelia Blanke",
+    "Scott Rozelle"
+   ],
+   "cites": 236,
+   "score": 0.3147,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "",
+   "contexts": [],
+   "cluster": 3,
+   "cluster_name": "中国节水技术"
+  },
+  {
+   "nid": 28,
+   "title": "Farming in arid areas depletes China’s water",
+   "year": 2023,
+   "venue": "Science",
+   "authors": [
+    "Yongyong Song",
+    "Dongqian Xue"
+   ],
+   "cites": 42,
+   "score": 0.2117,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "与本文共享 2 篇参考文献",
+   "contexts": [],
+   "cluster": 3,
+   "cluster_name": "中国节水技术"
+  },
+  {
+   "nid": 34,
+   "title": "Why do farmers stop using collective drip irrigation technology? Evidence from rural Xinjiang, China",
+   "year": 2024,
+   "venue": "Agricultural Water Management",
+   "authors": [
+    "Changkun Guan",
+    "Xueqin Zhu"
+   ],
+   "cites": 7,
+   "score": 0.1332,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "",
+   "contexts": [],
+   "cluster": 4,
+   "cluster_name": "制度与集体行动"
+  },
+  {
+   "nid": 22,
+   "title": "Effects of drip irrigation methods on yield and water productivity of maize in Northwest China",
+   "year": 2021,
+   "venue": "Agricultural Water Management",
+   "authors": [
+    "Yuxin Cao",
+    "Huanjie Cai"
+   ],
+   "cites": 63,
+   "score": 0.2303,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "",
+   "contexts": [],
+   "cluster": 5,
+   "cluster_name": "灌溉方式与水分生产力"
+  },
+  {
+   "nid": 9,
+   "title": "Deficit irrigation and sustainable water-resource strategies in agriculture for China’s food security",
+   "year": 2015,
+   "venue": "Journal of Experimental Botany",
+   "authors": [
+    "Taisheng Du",
+    "Shaozhong Kang"
+   ],
+   "cites": 368,
+   "score": 0.1173,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "",
+   "contexts": [],
+   "cluster": 5,
+   "cluster_name": "灌溉方式与水分生产力"
+  },
+  {
+   "nid": 33,
+   "title": "Half of twenty-first century global irrigation expansion has been in water-stressed regions",
+   "year": 2024,
+   "venue": "Nature Water",
+   "authors": [
+    "Piyush Mehta",
+    "Stefan Siebert"
+   ],
+   "cites": 261,
+   "score": 0.1793,
+   "label": "background",
+   "role": "backward",
+   "text_source": "abstract",
+   "why": "与本文共享 2 篇参考文献",
+   "contexts": [],
+   "cluster": 2,
+   "cluster_name": "全球灌溉扩张情景"
+  }
+ ],
+ "caveats": [
+  "本文暂无施引文献：共被引不可用，相关度只来自文本相似度与文献耦合（共享参考文献）",
+  "标签由规则自动生成，仅作阅读提示，不是事实断言",
+  "本文在 OpenAlex / Semantic Scholar / Crossref 均无摘要，文本相似度仅基于标题，相关度主要由文献耦合/共被引承担"
+ ],
+ "constraints": {
+  "language": "zh",
+  "citation_style": "[n]",
+  "allowed_nids": [
+   21,
+   18,
+   32,
+   41,
+   30,
+   29,
+   43,
+   38,
+   7,
+   28,
+   34,
+   22,
+   9,
+   33
+  ],
+  "rules": [
+   "每个 [n] 必须是 allowed_nids 中的编号，不得出现未登记的文献",
+   "所有数字（被引、年份、篇数）只能取自 stats 或 nodes，不得估算",
+   "不得写“证明了/驳斥了”，除非 contexts 有原文；即使有，也改写成“被用于/被引作”",
+   "contexts 中的方括号编号已被移除，复述时不得补回，也不得沿用其编号",
+   "找不到证据写“未检索到”，不写“可能/也许”",
+   "分组内按 score 降序，不重排"
+  ],
+  "outline": [
+   {
+    "section": 1,
+    "title": "这篇论文在做什么，接的是哪条线",
+    "use": [
+     "seed",
+     "foundation",
+     "recent"
+    ]
+   },
+   {
+    "section": 2,
+    "title": "方法来源：它站在谁的肩膀上",
+    "use": [
+     "clusters",
+     "foundation",
+     "method",
+     "hubs"
+    ]
+   },
+   {
+    "section": 3,
+    "title": "后续与同期：验证、扩展与竞争",
+    "use": [
+     "forward",
+     "hubs"
+    ]
+   },
+   {
+    "section": 4,
+    "title": "仍未解决的空白",
+    "use": [
+     "stats",
+     "caveats"
+    ]
+   }
+  ]
+ }
+}

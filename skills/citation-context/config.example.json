@@ -1,0 +1,41 @@
+{
+  "_readme": "复制为 ~/.config/citation-context/config.json，填入自己的 key；不要提交真实 key。",
+  "email": "",
+  "openalex_api_key": "",
+  "semantic_scholar_api_key": "",
+  "free_mode": false,
+  "venue_weights": {
+    "journal": 1.0,
+    "conference": 0.8,
+    "book": 0.7,
+    "repository": 0.35,
+    "preprint": 0.2,
+    "unknown": 0.5
+  },
+  "weights": {
+    "text": 0.42,
+    "cocite": 0.28,
+    "influence": 0.15,
+    "velocity": 0.05,
+    "recency": 0.05,
+    "venue": 0.05
+  },
+  "text_scale": 0.15,
+  "limits": {
+    "backward": 100,
+    "forward": 80,
+    "sibling": {
+      "enabled": false,
+      "max": 8,
+      "min_token_overlap": 0.02
+    },
+    "max_requests": 200,
+    "min_interval_s": 0.34,
+    "coupling_edge_min": 0.1,
+    "coupling_edges_max": 80
+  },
+  "cache_ttl_days": {
+    "metadata": 7,
+    "citations": 1
+  }
+}
