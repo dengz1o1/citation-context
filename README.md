@@ -26,7 +26,7 @@ renders everything into a single offline HTML report — graph, ranked list, and
 **Any Agent Skills client** (Claude Code, Codex, Cursor, Gemini CLI, DSH, …):
 
 ```bash
-npx skills add <owner>/citation-context --skill citation-context
+npx skills add dengz1o1/citation-context --skill citation-context
 # or copy skills/citation-context/ into your agent's skills directory
 ```
 
