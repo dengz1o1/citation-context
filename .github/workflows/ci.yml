@@ -1,0 +1,43 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Compile
+        run: python -m py_compile skills/citation-context/scripts/citegraph.py
+
+      - name: Offline selftest
+        working-directory: skills/citation-context
+        run: python scripts/citegraph.py selftest
+
+      - name: Build distributable and check for leaks
+        working-directory: skills/citation-context
+        run: |
+          python scripts/citegraph.py export-dist --out "$RUNNER_TEMP/dist"
+          python - <<'PY'
+          import json, os, sys
+          p = os.path.join(os.environ["RUNNER_TEMP"], "dist", "manifest.json")
+          m = json.load(open(p, encoding="utf-8"))
+          assert m["name"] == "citation-context", m
+          assert "commands" in m and "render" in m["commands"]
+          print("manifest ok:", len(m["commands"]), "commands")
+          PY
+
+      - name: Assert no secrets in tracked files
+        run: |
+          if grep -RInE "(api[_-]?key\s*[=:]\s*[A-Za-z0-9]{16,})" --include="*.py" --include="*.md" --include="*.json" .; then
+            echo "possible key found"; exit 1
+          fi
