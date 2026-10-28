@@ -19,7 +19,7 @@
 ## 安装
 
 ```bash
-npx skills add <owner>/citation-context --skill citation-context
+npx skills add dengz1o1/citation-context --skill citation-context
 # 或把 skills/citation-context/ 复制到你的 agent 的 skills 目录
 ```
 
